@@ -1,5 +1,5 @@
 import mysql.connector
-mydb = mysql.connector.connect(host="localhost", user="root",password="Allen-1998", database="BANK_MANAGEMENT", auth_plugin="mysql_native_password")
+mydb = mysql.connector.connect(host="localhost", user="root",password="Your Password", database="BANK_MANAGEMENT", auth_plugin="mysql_native_password")
 
 def OpenAcc():
     n = input("Enter The Name: ")
